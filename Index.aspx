@@ -38,9 +38,9 @@
                                     <li >
                                         <a href="#">Acerca de Nosotros</a>
                                          <ul>
-                                            <li><a href="#">Valores</a></li>
-                                            <li><a href="#">Misión</a></li>
-                                            <li><a href="#">Visión</a></li>
+                                            <li><a href="#openValores">Valores</a> </li>
+                                            <li><a href="#openMision">Misión</a></li>
+                                            <li><a href="#openVision">Visión</a></li>
 
                                         </ul>
                                     </li>
@@ -99,6 +99,42 @@
             </div>
         </div>
     </div>
+
+  
     </form>
+    
 </body>
 </html>
+ 
+<div id="openValores" class="modalDialog" align="center">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<h1>NUESTROS VALORES</h1>
+		<p>Buscamos brindarte la CONFIANZA en ti misma y en nosotros para que siempre luzcas fabulosa,
+            <br/>
+		nuestros prodductos son de alta CALIDAD, buscando de forma INTEGRA lo mejor para tu salud,</p>
+        <p>Al formar parte de nuestra comunidad ya sea como cliente o proveedor tendras la satisfaccion
+            <br/>
+        de gozar de los mejores productos en maquillaje</p>
+	</div>
+</div>
+        <div id="openMision" class="modalDialog" align="center">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<h1>NUESTRA MISIÓN</h1>
+		<p>Brindar la mejor calidad en maquillajes a nuestro público y el asoseromaniento en su compra
+            <br/>
+		para lograr alianzas solidas con nuestros proveedores.</p>
+        <p>Formar parte de la distríbución única de las marcas que manejamos, para brindar modelos unicos.
+            <br/></p>
+	</div>
+</div>
+        <div id="openVision" class="modalDialog" align="center">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<h1>NUESTRA VISIÓN</h1>
+		<p>Expandir nuestro territorio en toda la repúbica y en el extranjero
+            <br/>
+		con la ayuda tuya podemos ganar todos, ya que ere libre de tener tus propias sucursales</p>
+      
+	</div>

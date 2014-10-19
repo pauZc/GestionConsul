@@ -38,15 +38,7 @@
                             <nav id="nav">
                                 <ul>
                                     <!--class="current_page_item"-->
-                                    <li >
-                                        <a href="#">Acerca de Nosotros</a>
-                                         <ul>
-                                            <li><a href="#">Valores</a></li>
-                                            <li><a href="#">Misión</a></li>
-                                            <li><a href="">Visión</a></li>
-
-                                        </ul>
-                                    </li>
+                                    
                                     <li>
                                         <a href="">Marcas</a>
                                         <ul>
@@ -82,8 +74,8 @@
 
                         </div>
                     </header>      
-                   <!-- REGISTRAR -->
-			<div class="wrapper style5">
+          <%--         <!-- REGISTRAR -->
+			<div class="wrapper style5">--%>
 				<article id="contact" class="container small">
 					<div class="slider">
         <div id="coin-slider"> <a href="#"><img src="images/slide1.png" width="960" height="320" alt="" /><span><big></big><br />
@@ -95,7 +87,7 @@
       </div>
 					
 				</article>
-			</div>
+		<%--	</div>--%>
                         
                     </div>
                 </div>

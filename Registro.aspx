@@ -36,15 +36,7 @@
                             <nav id="nav">
                                 <ul>
                                     <!--class="current_page_item"-->
-                                    <li >
-                                        <a href="#">Acerca de Nosotros</a>
-                                         <ul>
-                                            <li><a href="#">Valores</a></li>
-                                            <li><a href="#">Misión</a></li>
-                                            <li><a href="">Visión</a></li>
-
-                                        </ul>
-                                    </li>
+                                    
                                     <li>
                                         <a href="">Marcas</a>
                                         <ul>
