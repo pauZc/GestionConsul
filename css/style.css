@@ -14,7 +14,7 @@
 
 	body
 	{
-		background: #303238 url('../images/pink-wallpaper-6.jpg');
+	    background: #3081af;
 	}
 
 		body.is-loading *
@@ -867,32 +867,7 @@
 			z-index: 2;
 		}
 
-		.wrapper.style1
-		{
-			position: relative;
-			text-shadow: 1px 1px 0 #fff;
-			background-color:		#fff;
-			background-image:		url('images/bg03.png'),		url('images/bg04.png'),		url('images/bg02.png');
-			background-repeat:		no-repeat,					no-repeat,					repeat;
-			background-size:		100% 15em,					100% 15em,					auto auto;
-			background-position:	top center,					bottom center,				top left;
-		}
-	
-		.wrapper.style2
-		{
-		}
-	
-		.wrapper.style3
-		{
-			position: relative;
-			text-shadow: 1px 1px 0 #fff;
-			background-color:		#fff;
-			background-image:		url('images/bg03.png'),		url('images/bg02.png');
-			background-repeat:		no-repeat,					repeat;
-			background-size:		100% 15em,					auto auto;
-			background-position:	top center,					top left;
-		}
-	
+		
         .wrapper.style4 {
     background-color: #303030;
     color: #999;
