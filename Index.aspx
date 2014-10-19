@@ -16,10 +16,11 @@
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/style-desktop.css" />
     </noscript>
+
 </head>
 <body class="homepage">
     <form id="form1" runat="server">
-    <div id="header-wrapper">
+    <div id="header-wrapper" >
         <div class="container">
             <div class="row">
                 <div class="12u">
@@ -99,14 +100,13 @@
             </div>
         </div>
     </div>
-
-  
+     
+        
     </form>
     
 </body>
-</html>
- 
-<div id="openValores" class="modalDialog" align="center">
+    <body>
+        <div id="openValores" class="modalDialog" align="center">
 	<div>
 		<a href="#close" title="Close" class="close">X</a>
 		<h1>NUESTROS VALORES</h1>
@@ -138,3 +138,7 @@
 		con la ayuda tuya podemos ganar todos, ya que ere libre de tener tus propias sucursales</p>
       
 	</div>
+            </div>
+    </body>
+</html>
+ 
