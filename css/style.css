@@ -850,7 +850,8 @@
 .wrapper.style4 {
     color: #999;
     text-shadow: -1px -1px 0px #181818;
-    background-image: url(../images/fashion.png);
+    background-image: url(../images/1024_768_20100613082655460298.jpg);
+    background-repeat: repeat;
     opacity: 90;
 }
 .wrapper {
