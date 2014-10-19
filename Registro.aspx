@@ -103,17 +103,11 @@
                                                 </asp:DropDownList>
                                             <br/>
                                                <asp:DropDownList ID="dlMarca" runat="server" Width="400" Height="40" AppendDataBoundItems="true">
-                                                     <asp:ListItem Value="0">&lt;Marca de maquillaje preferido&gt;</asp:ListItem> 
-                                                    <asp:ListItem Value="0">Channel</asp:ListItem> 
-                                                    <asp:ListItem Value="0">Revlon</asp:ListItem>
-                                                   <asp:ListItem Value="0">Maybelline</asp:ListItem>
-                                                   <asp:ListItem Value="0">Givenchy</asp:ListItem>
-                                                   <asp:ListItem Value="0">MAC</asp:ListItem>
-                                                   <asp:ListItem Value="0">Loreal</asp:ListItem>
-                                                   <asp:ListItem Value="0">Dior</asp:ListItem>
-                                                   <asp:ListItem Value="0">CoverGirl</asp:ListItem>
-                                                   <asp:ListItem Value="0">Estee Lauder</asp:ListItem>
-                                                   <asp:ListItem Value="0">Clinique</asp:ListItem>
+                                                     <asp:ListItem Value="0">&lt;Tipo Usuario&gt;</asp:ListItem> 
+                                                    <asp:ListItem Value="0">Supervisor</asp:ListItem> 
+                                                    <asp:ListItem Value="0">Director</asp:ListItem>
+                                                   <asp:ListItem Value="0">Auditor</asp:ListItem>
+                                                   <asp:ListItem Value="0">Cliente</asp:ListItem>
                                            
                                                 </asp:DropDownList>
                                                    

@@ -80,7 +80,7 @@
 					<div class="slider">
         <div id="coin-slider"> <a href="#"><img src="images/slide1.png" width="960" height="320" alt="" /><span><big></big><br />
         </span></a> <a href="#"><img src="images/slide2.png" width="960" height="320" alt="" /><span><big></big><br />
- </span></a> <a href="#"><img src="images/slide6.png" width="960" height="320" alt="" /><span><big></big><br />
+ </span></a> <a href="#"><img src="images/slide9.png" width="960" height="320" alt="" /><span><big></big><br />
       </span></a> <a href="#"><img src="images/slide7.png" width="960" height="320" alt="" /><span><big></big><br />
  </span></a> <a href="#"><img src="images/slide8.png" width="960" height="320" alt="" /><span><big></big><br />
 </span></a> </div>
