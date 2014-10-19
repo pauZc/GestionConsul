@@ -15,6 +15,10 @@
 	body
 	{
 	    background: #3081af;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+}
 	}
 
 		body.is-loading *
@@ -150,7 +154,7 @@
 		color: #696969;
 		margin: 0 0 0.25em 0;
 	}
-	
+
 	/* Section/Article */
 	
 		section,
@@ -762,6 +766,10 @@
 		.icon > .label {
 			display: none;
 		}
+        	.slider {
+	padding:28px 0 0;
+	background:url(../images/slider_bg.gif) no-repeat left 348px;
+}
 
 /*********************************************************************************/
 /* Banner                                                                        */
@@ -852,6 +860,7 @@
     background-image: url(../images/1024_768_20100613082655460298.jpg);
     background-repeat: repeat;
     opacity: 90;
+     background-color: #303030;
 }
 .wrapper {
     text-align: center;
@@ -868,10 +877,14 @@
 		}
 
 		
-        .wrapper.style4 {
-    background-color: #303030;
+        .wrapper.style5 {
     color: #999;
     text-shadow: -1px -1px 0px #181818;
+    background-image: url(../images/chanel-wallpaper-tumblr-7.jpg);
+            background-size: cover, cover;
+    background-repeat: repeat;
+    opacity: 90;
+     background-color: #fffafa;
 }
 /*********************************************************************************/
 /* Header                                                                        */

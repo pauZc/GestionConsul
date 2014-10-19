@@ -72,7 +72,7 @@
                                         <a href="#">Servicios</a>
                                         
                                     </li>
-                                    <li><a href="#">Catálogo</a></li>
+                                    <li><a href="Catalogo.aspx">Catálogo</a></li>
                                     
                                 </ul>
                             </nav>

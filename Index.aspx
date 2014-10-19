@@ -19,7 +19,7 @@
 </head>
 <body class="homepage">
     <form id="form1" runat="server">
-    <<div id="header-wrapper">
+    <div id="header-wrapper">
         <div class="container">
             <div class="row">
                 <div class="12u">
@@ -72,7 +72,7 @@
                                         <a href="#">Servicios</a>
                                         
                                     </li>
-                                    <li><a href="#">Catálogo</a></li>
+                                    <li><a href="Catalogo.aspx">Catálogo</a></li>
                                     
                                 </ul>
                             </nav>
