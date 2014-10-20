@@ -95,14 +95,9 @@
                                                    <br/>
                                                 <asp:TextBox ID="txtCP" runat="server" placeholder="Codigo Postal" AutoCompleteType="HomeZipCode" Width="200" ></asp:TextBox>
                                              
-                                                <br/>
-                                                <asp:DropDownList ID="dlGenero" runat="server" Width="250" Height="40" AppendDataBoundItems="true">
-                                                     <asp:ListItem Value="0">&lt;Selecciona tu genero&gt;</asp:ListItem> 
-                                                    <asp:ListItem Value="0">Masculino</asp:ListItem> 
-                                                    <asp:ListItem Value="0">Femenino</asp:ListItem>
-                                                </asp:DropDownList>
+                                                
                                             <br/>
-                                               <asp:DropDownList ID="dlMarca" runat="server" Width="400" Height="40" AppendDataBoundItems="true">
+                                               <asp:DropDownList ID="dlUserType" runat="server" Width="400" Height="40" AppendDataBoundItems="true">
                                                      <asp:ListItem Value="0">&lt;Tipo Usuario&gt;</asp:ListItem> 
                                                     <asp:ListItem Value="0">Supervisor</asp:ListItem> 
                                                     <asp:ListItem Value="0">Director</asp:ListItem>
