@@ -41,15 +41,8 @@
                                 <nav id="nav">
                                     <ul>
                                         <!--class="current_page_item"-->
-                                        <li>
-                                            <a href="#">Acerca de Nosotros</a>
-                                            <ul>
-                                                <li><a href="#openValores">Valores</a> </li>
-                                                <li><a href="#openMision">Misión</a></li>
-                                                <li><a href="#openVision">Visión</a></li>
-
-                                            </ul>
-                                        </li>
+                                        <li><a href="Catalogo.aspx">Catálogo</a></li>
+                                       
                                         <li>
                                             <a href="">Marcas</a>
                                             <ul>
@@ -67,19 +60,27 @@
 
                                             </ul>
                                         </li>
-                                        <li>
-                                            <a href="#">Cuenta</a>
-                                            <ul>
-                                                <li><a href="IniciarSesion.aspx">Iniciar sesión</a></li>
-                                                <li><a href="Registro.aspx">Crear Cuenta</a></li>
-                                            </ul>
-                                        </li>
+                                       
                                         <li>
                                             <a href="#">Servicios</a>
 
                                         </li>
-                                        <li><a href="Catalogo.aspx">Catálogo</a></li>
+                                         <li>
+                                            <a href="#">Acerca de Nosotros</a>
+                                            <ul>
+                                                <li><a href="#openValores">Valores</a> </li>
+                                                <li><a href="#openMision">Misión</a></li>
+                                                <li><a href="#openVision">Visión</a></li>
 
+                                            </ul>
+                                        </li>
+                                         <li>
+                                            <a href="IniciarSesion.aspx">Iniciar sesión</a>
+                                           <%-- <ul>
+                                                <li><a href="IniciarSesion.aspx">Iniciar sesión</a></li>
+                                                <li><a href="Registro.aspx">Crear Cuenta</a></li>
+                                            </ul>--%>
+                                        </li>
                                     </ul>
                                 </nav>
 
@@ -93,8 +94,8 @@
                             <h2>
                                 <div align="left">
 
-                                    <img src="images/1413697808_Twitter_NEW.png" height="90" />
-                                    <img src="images/1413697780_Facebook_alt_1.png" height="90" />
+                                    <img src="images/1413697808_Twitter_NEW.png" height="90" alt=""/>
+                                    <img src="images/1413697780_Facebook_alt_1.png" height="90" alt=""/>
                                 </div>
 
                             </h2>
