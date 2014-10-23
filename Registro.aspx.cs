@@ -14,7 +14,6 @@ public partial class Registro : System.Web.UI.Page
     }
     protected void btnRegistrar_Click(object sender, EventArgs e)
     {
-<<<<<<< HEAD
         var name = txtNombre.Text;
         var lastname = txtApellido.Text;
         var mail = txtCorreo.Text;
@@ -45,8 +44,5 @@ public partial class Registro : System.Web.UI.Page
         var cmd = new SqlCommand(qry, con);
         cmd.ExecuteNonQuery();
         con.Close();
-=======
-
->>>>>>> origin/master
     }
 }
