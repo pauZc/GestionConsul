@@ -1,4 +1,4 @@
-﻿<%@ Page EnableEventValidation="false" Language="C#" AutoEventWireup="true" CodeFile="Registro.aspx.cs" Inherits="Registro" %>
+﻿<%@ Page ValidateRequest="false" EnableEventValidation="false" Language="C#" AutoEventWireup="true" CodeFile="Registro.aspx.cs" Inherits="Registro" %>
 
 <!DOCTYPE html>
 
@@ -82,31 +82,31 @@
                                         <div class="div animated wobble">
                                             <div class="row">
                                                 <div class="6u">
-                                                    <asp:TextBox ID="txtNombre" runat="server" placeholder="Nombre" AutoCompleteType="FirstName"></asp:TextBox>
+                                                    <asp:TextBox ID="txtNombre" runat="server" placeholder="Nombre" AutoCompleteType="FirstName" BackColor="#CCFFFF"></asp:TextBox>
                                                     <br />
-                                                    <asp:TextBox ID="txtApellido" runat="server" placeholder="Apellido" AutoCompleteType="LastName"></asp:TextBox>
+                                                    <asp:TextBox ID="txtApellido" runat="server" placeholder="Apellido" AutoCompleteType="LastName" BackColor="#CCFFFF"></asp:TextBox>
                                                     <br />
-                                                    <asp:TextBox ID="txtPass" placeholder="Password" runat="server"></asp:TextBox>
+                                                    <asp:TextBox ID="txtPass" placeholder="Password" runat="server" BackColor="#CCFFFF"></asp:TextBox>
                                                     <br />
-                                                    <asp:TextBox ID="txtTelefono" runat="server" placeholder="Telefono" AutoCompleteType="HomePhone" Width="200"></asp:TextBox>
+                                                    <asp:TextBox ID="txtTelefono" runat="server" placeholder="Telefono" AutoCompleteType="HomePhone" Width="200" BackColor="#CCFFFF"></asp:TextBox>
                                                     <br />
-                                                    <asp:TextBox ID="txtCorreo" runat="server" placeholder="Correo" AutoCompleteType="Email" Width="300"></asp:TextBox>
+                                                    <asp:TextBox ID="txtCorreo" runat="server" placeholder="Correo" AutoCompleteType="Email" Width="300" BackColor="#CCFFFF"></asp:TextBox>
                                                     <%--<br/>--%>
-                                                    <asp:TextBox ID="txtDomicilio" runat="server" placeholder="Dirección" AutoCompleteType="HomeStreetAddress" Width="500"></asp:TextBox>
+                                                    <asp:TextBox ID="txtDomicilio" runat="server" placeholder="Dirección" AutoCompleteType="HomeStreetAddress" Width="500" BackColor="#CCFFFF"></asp:TextBox>
                                                     <br />
-                                                    <asp:TextBox ID="txtCP" runat="server" placeholder="Codigo Postal" AutoCompleteType="HomeZipCode" Width="200"></asp:TextBox>
+                                                    <asp:TextBox ID="txtCP" runat="server" placeholder="Codigo Postal" AutoCompleteType="HomeZipCode" Width="200" BackColor="#CCFFFF"></asp:TextBox>
 
 
                                                     <br />
 
-                                                    <asp:DropDownList ID="dlGenero" runat="server" Width="400" Height="40" AppendDataBoundItems="true">
+                                                    <asp:DropDownList ID="dlGenero" runat="server" Width="400" Height="40" AppendDataBoundItems="true" BackColor="#CCFFFF">
                                                         <asp:ListItem>&lt;Genero&gt;</asp:ListItem>
                                                         <asp:ListItem Value="m">Masculino</asp:ListItem>
                                                         <asp:ListItem Value="f">Femenino</asp:ListItem>
 
                                                     </asp:DropDownList>
                                                     <br />
-                                                    <asp:DropDownList ID="dlUserType" runat="server" Width="400" Height="40" AppendDataBoundItems="true">
+                                                    <asp:DropDownList ID="dlUserType" runat="server" Width="400" Height="40" AppendDataBoundItems="true" BackColor="#CCFFFF">
                                                         <asp:ListItem>&lt;Tipo Usuario&gt;</asp:ListItem>
                                                         <asp:ListItem Value="0">Supervisor</asp:ListItem>
                                                         <asp:ListItem Value="1">Director</asp:ListItem>
