@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/style-desktop.css" />
     </noscript>
+    <link rel="shortcut icon" type="image/x-icon" href="/images/kiss.ico" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -97,14 +98,7 @@
                                              
                                                 
                                             <br/>
-                                               <asp:DropDownList ID="dlUserType" runat="server" Width="400" Height="40" AppendDataBoundItems="true">
-                                                     <asp:ListItem Value="0">&lt;Tipo Usuario&gt;</asp:ListItem> 
-                                                    <asp:ListItem Value="0">Supervisor</asp:ListItem> 
-                                                    <asp:ListItem Value="0">Director</asp:ListItem>
-                                                   <asp:ListItem Value="0">Auditor</asp:ListItem>
-                                                   <asp:ListItem Value="0">Cliente</asp:ListItem>
-                                           
-                                                </asp:DropDownList>
+                                               
                                                    
                                                 <br/>
                                                 <div align="center">
