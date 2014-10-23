@@ -102,7 +102,7 @@
                                                    
                                                 <br/>
                                                 <div align="center">
-                                                    <asp:Button ID="btnRegistrar" runat="server" Text="Registrar" Width="300" Height="70" />
+                                                    <asp:Button ID="btnRegistrar" runat="server" Text="Registrar" Width="300" Height="70" OnClick="btnRegistrar_Click" />
                                                 </div>
                                                 
 											</div>
