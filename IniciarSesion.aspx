@@ -94,7 +94,7 @@
                                                         <asp:TextBox ID="txtContraseña" placeholder="Contraseña" TextMode="Password" runat="server" BackColor="#CCFFFF"></asp:TextBox>
                                                                     <br />
                                                                     <br />
-                                                                    <asp:Button ID="btnIngresar" runat="server" Text="Ingresar" Width="300" Height="70" />
+                                                                    <asp:Button ID="btnIngresar" runat="server" Text="Ingresar" Width="300" Height="70" OnClick="btnIngresar_Click" />
                                                                 </div>
                                                         </div>
                                                     </div>

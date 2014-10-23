@@ -11,4 +11,8 @@ public partial class IniciarSesion : System.Web.UI.Page
     {
 
     }
+    protected void btnIngresar_Click(object sender, EventArgs e)
+    {
+
+    }
 }
