@@ -19,6 +19,7 @@
         <link href="css/style-desktop.css" rel="stylesheet" />
         <link href="css/coin-slider.css" rel="stylesheet" />
      </noscript>
+        <link rel="shortcut icon" type="image/x-icon" href="/images/kiss.ico" />
 </head>
 <body>
     <form id="form1" runat="server">

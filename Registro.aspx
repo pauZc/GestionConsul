@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/style-desktop.css" />
     </noscript>
+    <link rel="shortcut icon" type="image/x-icon" href="/images/kiss.ico" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -122,6 +123,41 @@
                                                         <asp:Button ID="btnRegistrar" runat="server" Text="Registrar" Width="200" Height="70" OnClick="btnRegistrar_Click" />
                                                     </div>
 
+<<<<<<< HEAD
+=======
+                        </div>
+                    </header>      
+                   <!-- REGISTRAR -->
+			<div class="wrapper style4">
+				<article id="contact" class="container small">
+					
+					<div>
+						<div class="row">
+							<div class="12u">
+								<form method="post" action="#">
+									<div>
+										<div class="row" >
+											<div class="6u">
+                                                <asp:TextBox ID="txtNombre" runat="server" placeholder="Nombre" AutoCompleteType="FirstName"></asp:TextBox>
+                                                <br/>
+												<asp:TextBox ID="txtApellido" runat="server" placeholder="Apellido" AutoCompleteType="LastName" ></asp:TextBox>
+                                                <br/>
+                                                <asp:TextBox ID="txtTelefono" runat="server" placeholder="Telefono" AutoCompleteType="HomePhone" Width="200" ></asp:TextBox>
+                                                <br/>
+												<asp:TextBox ID="txtCorreo" runat="server" placeholder="Correo" AutoCompleteType="Email" Width="300" ></asp:TextBox>
+                                                <br/>
+												<asp:TextBox ID="txtDomicilio" runat="server" placeholder="Dirección" AutoCompleteType="HomeStreetAddress" Width="500" ></asp:TextBox>
+                                                   <br/>
+                                                <asp:TextBox ID="txtCP" runat="server" placeholder="Codigo Postal" AutoCompleteType="HomeZipCode" Width="200" ></asp:TextBox>
+                                             
+                                                
+                                            <br/>
+                                               
+                                                   
+                                                <br/>
+                                                <div align="center">
+                                                    <asp:Button ID="btnRegistrar" runat="server" Text="Registrar" Width="300" Height="70" OnClick="btnRegistrar_Click" />
+>>>>>>> origin/master
                                                 </div>
                                             </div>
 

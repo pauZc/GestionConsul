@@ -20,14 +20,16 @@
 <link href="css/bootstrap-theme.min.css" rel="stylesheet" />
 <link href="css/bootstrap.css" rel="stylesheet" />
 <link href="css/bootstrap.min.css" rel="stylesheet" />
+            
     </noscript>
+        <link rel="shortcut icon" type="image/x-icon" href="/images/kiss.ico" />
 
 </head>
 <body class="homepage">
     <form id="form1" runat="server">
         <div id="header-wrapper">
             <div class="container">
-                <div class="row">
+          <%--      <div class="row">--%>
                     <div class="12u">
 
                         <!-- Header -->
@@ -66,7 +68,7 @@
 
                                         </li>
                                          <li>
-                                            <a href="#">Acerca de Nosotros</a>
+                                            <a href="#">Conocenos</a>
                                             <ul>
                                                 <li><a href="#openValores">Valores</a> </li>
                                                 <li><a href="#openMision">Misión</a></li>
@@ -76,10 +78,6 @@
                                         </li>
                                          <li>
                                             <a href="IniciarSesion.aspx">Iniciar sesión</a>
-                                           <%-- <ul>
-                                                <li><a href="IniciarSesion.aspx">Iniciar sesión</a></li>
-                                                <li><a href="Registro.aspx">Crear Cuenta</a></li>
-                                            </ul>--%>
                                         </li>
                                     </ul>
                                 </nav>
@@ -106,7 +104,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+    <%--    </div>--%>
 
 
     </form>

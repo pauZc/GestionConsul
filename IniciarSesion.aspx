@@ -20,6 +20,7 @@
         <link href="css/bootstrap.css" rel="stylesheet" />
         <link href="css/bootstrap.min.css" rel="stylesheet" />
     </noscript>
+        <link rel="shortcut icon" type="image/x-icon" href="/images/kiss.ico" />
 </head>
 <body>
     <form id="form1" runat="server">
