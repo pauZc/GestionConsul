@@ -28,7 +28,7 @@ public partial class Registro : System.Web.UI.Page
 
         var con = new SqlConnection
         {
-            ConnectionString = "Data Source=MEMO-HP;Initial Catalog=webBD;Integrated Security=True"
+            ConnectionString = new VariablesBD().Cadena
         };
         con.Open();
         var insert = "insert into [dbo].[User] values('"
@@ -47,7 +47,7 @@ public partial class Registro : System.Web.UI.Page
         var select = "select user_mail from [dbo].[User] where user_mail = '" + mail + "'";
         var comprobarmail = new SqlCommand(@select, con);
         var a = comprobarmail.ExecuteScalar();
-        if ((string) a == "")
+        if ((string) a != mail)
         {
             var cmd = new SqlCommand(insert, con);
             cmd.ExecuteNonQuery();

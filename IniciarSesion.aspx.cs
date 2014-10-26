@@ -9,7 +9,7 @@ using System.Web.UI.WebControls;
 
 public partial class IniciarSesion : System.Web.UI.Page
 {
-    private SqlConnection conexion = new SqlConnection("Data Source=PAULINA;Initial Catalog=webBD;Integrated Security=True");
+    private readonly SqlConnection _conexion = new SqlConnection(new VariablesBD().Cadena);
     protected void Page_Load(object sender, EventArgs e)
     {
 
@@ -19,13 +19,13 @@ public partial class IniciarSesion : System.Web.UI.Page
 
         try
         {
-            conexion.Open();
+            _conexion.Open();
             Label1.Text = "CONECTADO";
-            conexion.Close();
+            _conexion.Close();
         }
         catch (Exception)
         {
-            conexion.Close();
+            _conexion.Close();
            Label1.Text="ERROR";
         }
        
