@@ -76,43 +76,28 @@
 
                             </div>
                         </header>
-                        <!-- REGISTRAR -->
-                        <div class="wrapper style4">
-                            <article id="contact" class="container small">
 
-                                <div>
-                                    <div class="row">
-                                        <div class="12u">
-                                            <form method="post" action="#">
+                                <div align="center" id="labelcode">
+                                            <form <%--method="post" action="#"--%>>
                                                 <div>
-                                                    <div class="row">
-                                                        <div class="6u">
-                                                                <div align="center">
                                                                     Usuario
-                                                        <asp:TextBox ID="txtUsuario" placeholder="Nombre de Usuario" runat="server" BackColor="#CCFFFF"></asp:TextBox>
+                                                        <asp:TextBox ID="txtUsuario" placeholder="micorreo@correo.com" runat="server" Width="400"></asp:TextBox>
                                                                     <br />
                                                                     Contraseña
-                                                        <asp:TextBox ID="txtContraseña" placeholder="Contraseña" TextMode="Password" runat="server" BackColor="#CCFFFF"></asp:TextBox>
+                                                        <asp:TextBox ID="txtContraseña" placeholder="Contraseña" TextMode="Password" runat="server" Width="400"></asp:TextBox>
                                                                     <br />
                                                                     <br />
                                                                     <asp:Button ID="btnIngresar" runat="server" Text="Ingresar" Width="300" Height="70" OnClick="btnIngresar_Click" />
-                                                                </div>
-                                                        </div>
-                                                    </div>
+                                                    <br/>
+                                                    <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
 
                                                 </div>
                                             </form>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                            </article>
-                        </div>
 
                     </div>
                 </div>
             </div>
+                </div>
         </div>
     </form>
 </body>

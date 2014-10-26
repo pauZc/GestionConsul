@@ -24,7 +24,7 @@ public partial class Registro : System.Web.UI.Page
         var address = txtDomicilio.Text;
         var cp = txtCP.Text;
         var genero = dlGenero.Text;
-        var type = dlUserType.Text;
+        //var type = dlUserType.Text;
 
         var con = new SqlConnection
         {
@@ -40,8 +40,10 @@ public partial class Registro : System.Web.UI.Page
                      + phone + "','"
                      + address + "','"
                      + cp + "','"
-                     + genero.Substring(0, 1) + "','"
-                     + type.Substring(0, 1) + "')";
+                     + genero.Substring(0, 1) + 
+                     //"','"
+                     //+ type.Substring(0, 1) + 
+                     "')";
         var select = "select user_mail from [dbo].[User] where user_mail = '" + mail + "'";
         var comprobarmail = new SqlCommand(@select, con);
         var a = comprobarmail.ExecuteScalar();

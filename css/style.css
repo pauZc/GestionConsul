@@ -20,7 +20,7 @@
     font-family: "Source Sans Pro";
     font-weight: 400;
 }
-	}
+	
 
 		body.is-loading *
 		{
@@ -391,7 +391,7 @@
 
 .close:hover { background: #00d9ff; }
 
-	/* Image */
+	 /*Image 
 
 		.image
 		{
@@ -406,10 +406,10 @@
 				border-radius: 8px;
 			}
 			
-			/* 
+			 
 				Adds a grain-y overlay to your images. Delete this entire rule if
 				that's not something you want.
-			*/
+			
 			.image:before
 			{
 				content: '';
@@ -452,7 +452,7 @@
 				{
 					margin: 0 auto;
 					width: auto;
-				}
+				}*/
 
 	/* Button */
 
@@ -768,7 +768,7 @@
 /* Icons                                                                         */
 /*********************************************************************************/
 
-	.icon {
+	/*.icon {
 		text-decoration: none;
 	}
 
@@ -817,7 +817,10 @@
 	background: -moz-linear-gradient(#fff, #999);
 	background: -webkit-linear-gradient(#fff, #999);
 	background: -o-linear-gradient(#fff, #999);
-}
+}*/
+    /*********************************************************************************/
+/* Slider                                                                        */
+/*********************************************************************************/
         	.slider {
 	padding:28px 0 0;
 	background:url(../images/slider_bg.gif) no-repeat left 348px;
@@ -882,6 +885,7 @@
 			letter-spacing: 0.04em;
 		}
 
+        
 /*********************************************************************************/
 /* Wrappers                                                                      */
 /*********************************************************************************/
@@ -896,7 +900,11 @@
 	#banner-wrapper
 	{
 	}
-	
+	#labelcode {
+	    font-family: "Century Gothic";
+	    font-weight: bold;
+	    font-size: 14px;
+	}
 	#main-wrapper
 	{
 		background: #fff;
